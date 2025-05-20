@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <header>
+        <button id="get-datas">Récupérer données</button>
+        <button id="post-datas">Ajouter une donnée</button>
+    </header>
+    <main>
+        <h2>Données récupérées</h2>
+        <ul id="users"></ul>
+    
+    
+        <div id="myModal" class="modal">
+    
+            <!-- Modal content -->
+            <div class="modal-content">
+              <span class="close">&times;</span>
+                <form id="edit-user-form">
+    
+                    <div class="form-field">
+                        <label for="username">Nom</label>
+                        <input type="text" id="username" name="username">
+                    </div>
+                    
+                    <div class="form-field">
+                        <label for="user-email">Email</label>
+                        <input type="user-email" id="user-email" name="user-email">
+                    </div>
+    
+                    <div class="form-field">
+                        <label for="user-gender">Sexe</label>
+                        <select name=""id="user-gender" name="user-gender">
+                            <option value="male">Homme</option>
+                            <option value="female">Femme</option>
+                        </select>
+                    </div>
+    
+                    <div class="form-field">
+                        <label for="status">Statut</label>
+                        <select name=""id="status" name="user-status">
+                            <option value="active">Actif</option>
+                            <option value="inactive">Inactif</option>
+                        </select>
+                    </div>
+    
+                    <div class="form-field center">
+                        <button type="submit">Confirmer</button>
+                    </div>
+               
+                </form>
+            </div>
+          
+          </div>
+    </main>
+    <footer></footer>
+
+    
+</body>
+</html>

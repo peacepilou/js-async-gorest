@@ -1,0 +1,68 @@
+/* Modal */
+/* Modal : background */
+.modal {
+    display: none; /* Hidden par défaut */
+    position: fixed; /* Garder en place */
+    z-index: 1; /* Affiché par dessus */
+    left: 0;
+    top: 0;
+    width: 100%; 
+    height: 100%; 
+    overflow: auto; /* Active le scroll Y si besoin */
+    background-color: rgb(0,0,0); /* Couleur d'arrière-plan */
+    background-color: rgba(0,0,0,0.4); 
+  }
+  
+  /* Modal : contenu */
+  .modal-content {
+    background-color: #fefefe;
+    margin: 15% auto; /* 15% du haut de la page et centré  */
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%; /* Pourrait être plus, ça dépendra de ce que l'on veut */
+  }
+  
+  /* Modal : bouton fermer */
+  .close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  .close:hover, .close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+  }
+
+
+  /* Formulaire */
+  .form-field {
+    margin: 1.5em 0;
+}
+
+.form-field label {
+    display: block;
+    color: #777;
+    margin-bottom: 5px;
+}
+
+.form-field input, .form-field select {
+    border: solid 2px #f0f0f0;
+    border-radius: 3px;
+    padding: 10px;
+    margin-bottom: 5px;
+    font-size: 14px;
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.form-field input:focus {
+    outline: none;
+}
+
+.center {
+  text-align: center;
+}
